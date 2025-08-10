@@ -1,0 +1,5 @@
+# Ignore these files for stow
+
+.git
+.stow-local-ignore
+nixos
