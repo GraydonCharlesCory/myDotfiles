@@ -48,6 +48,23 @@
     variant = "";
   };
 
+  hardware.opengl = {
+    enable = true;
+    drisupport = true;
+    drisupport32bit = true;
+  };
+
+  services.xserver.videoDrivers = ["nvidia"];
+  hardware.nvidia.modesetting.enabel = true;
+
+  hardware.nvidia.prime = {
+    sync.enable = true;
+
+    intelBusId = "PCI:0:2:0";
+
+    nvidiaBusId = "PCI:1:0:0";
+  };
+  
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.graydonc = {
     isNormalUser = true;
@@ -63,6 +80,7 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  programs.steam.enable = true;
   programs.hyprland.enable = true;
   # List packages installed in system profile. To search, run:
   # $ nix search wget
