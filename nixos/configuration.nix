@@ -74,7 +74,6 @@
     stow
     tmux
     kitty
-    firefox-unwrapped
     neofetch
     yazi
     vivaldi

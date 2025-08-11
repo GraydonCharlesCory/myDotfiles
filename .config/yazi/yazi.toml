@@ -1,2 +1,9 @@
+[mgr]
+show_hidden = true
+sort_dir_first = true
+linemode = "permissions"
+show_symlink = true
+
 [opener]
 edit = [{ run = 'hx "$@"', block = true }]
+
