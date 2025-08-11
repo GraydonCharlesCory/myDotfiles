@@ -1,0 +1,16 @@
+8/10/2025, 8:33:33 PM CDT 0: 
+
+----------------------------------------------
+8/10/2025, 8:33:33 PM CDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.103"}, modulepath: /home/graydonc/.config/discord/0.0.103/modules
+8/10/2025, 8:33:33 PM CDT 2: ✅ webContents.created web1 "index.html"
+8/10/2025, 8:33:33 PM CDT 3: ✅ window.created win1 "discord"
+8/10/2025, 8:33:34 PM CDT 4: ✅ webContents.did-finish-load web1
+8/10/2025, 8:35:29 PM CDT 5: ✅ webContents.created web2 ""
+8/10/2025, 8:35:29 PM CDT 6: ✅ window.created win2 "Discord"
+8/10/2025, 8:35:56 PM CDT 7: ✅ webContents.did-finish-load web2
+8/10/2025, 8:35:57 PM CDT 8: window.close win1
+8/10/2025, 8:35:57 PM CDT 9: webContents.destroyed web1
+8/10/2025, 8:35:57 PM CDT 10: window.closed win1
+8/10/2025, 8:39:00 PM CDT 11: window.close win2
+8/10/2025, 8:42:26 PM CDT 12: before-quit
+8/10/2025, 8:42:26 PM CDT 13: window.close win2

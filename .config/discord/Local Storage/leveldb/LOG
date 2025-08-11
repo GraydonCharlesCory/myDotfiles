@@ -1,0 +1,5 @@
+2025/08/10-20:33:33.009 4b67 Creating DB /home/graydonc/.config/discord/Local Storage/leveldb since it was missing.
+2025/08/10-20:33:33.030 4b67 Reusing MANIFEST /home/graydonc/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/08/10-20:39:37.691 4b68 Level-0 table #5: started
+2025/08/10-20:39:37.725 4b68 Level-0 table #5: 1592985 bytes OK
+2025/08/10-20:39:37.732 4b68 Delete type=0 #3
