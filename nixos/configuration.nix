@@ -48,22 +48,25 @@
     variant = "";
   };
 
-  hardware.opengl = {
-    enable = true;
-    drisupport = true;
-    drisupport32bit = true;
-  };
-
-  services.xserver.videoDrivers = ["nvidia"];
-  hardware.nvidia.modesetting.enabel = true;
-
-  hardware.nvidia.prime = {
-    sync.enable = true;
-
-    intelBusId = "PCI:0:2:0";
-
-    nvidiaBusId = "PCI:1:0:0";
-  };
+#  hardware.graphics = {
+#    enable = true;
+#  };
+#
+#
+#  services.xserver.videoDrivers = ["nvidia"];
+#  hardware.nvidia.modesetting.enable = true;
+#
+#  hardware.nvidia = {
+#    open = false;
+#
+#    prime = {
+#      sync.enable = true;
+#
+#      intelBusId = "PCI:0:2:0";
+#
+#      nvidiaBusId = "PCI:1:0:0";
+#    };
+#  };
   
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.graydonc = {
@@ -98,6 +101,7 @@
     discord
     steamcmd
     steam-tui
+    starship
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
   ];
