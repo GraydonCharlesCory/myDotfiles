@@ -102,6 +102,15 @@
     steamcmd
     steam-tui
     starship
+    ripgrep
+    fd
+    bat
+    eza
+    zoxide
+    gitui
+    cargo-info
+    rusty-man
+    wiki-tui    
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
   ];
